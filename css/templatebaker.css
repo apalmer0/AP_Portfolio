@@ -197,6 +197,7 @@ a:focus {
     width: 75px;
     margin-left: 20px;
     margin-top: 20px;
+    padding-top: 25px;
     vertical-align: top;
 }
 
@@ -242,6 +243,21 @@ a:focus {
 
 .portfolio-skills-img {
   width: 30px;
+}
+
+
+.portfolio-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  text-decoration: none;
 }
 
 /*****************************/
@@ -307,6 +323,20 @@ a:focus {
 .tb-social-icons a {
     color: #333333;
     font-size: 46px;
+}
+
+.contact-link a {
+  color: #333333;
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+.contact-link a:first-child {
+  margin-left: 0;
+}
+
+.contact-link a:hover {
+  color: #6f9ef2;
 }
 
 /*****************************/
